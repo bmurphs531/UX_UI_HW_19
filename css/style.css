@@ -118,12 +118,6 @@ button {
   background-color: #5e0bdf;
 }
 
-.myDoodle img {
-  border: 8px solid black;
-  width: 377px;
-  height: 647px;
-}
-
 .workHeading {
   text-align: center;
   color: black;
@@ -136,7 +130,7 @@ button {
 
 .myWork {
   border: 8px solid black;
-  padding: 30px 0px 30px 0px;
+  padding: 0px 0px 50px 0px;
   padding-top: 20;
   width: 1440px;
 }
@@ -145,11 +139,12 @@ button {
   display: grid;
   width: 1440px;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 50px 50px 250px;
+  grid-template-rows: 50px 250px 250px;
   grid-template-areas:
     "heading1 heading2 heading3"
     "img1 img2 img3"
     "content1 content2 content3";
+  padding-bottom: 50px;
 }
 
 .workGrid img {
@@ -159,16 +154,37 @@ button {
   align-items: center;
 }
 
+.myDoodle img {
+  border: 8px solid black;
+  width: 377px;
+  height: 100%;
+  float: right;
+}
+
 .heading1 {
+  margin: 0 auto;
   grid-area: heading1;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
 }
 
 .heading2 {
+  margin: 0 auto;
+
   grid-area: heading2;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
 }
 
 .heading3 {
+  margin: 0 auto;
+
   grid-area: heading3;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
 }
 
 .img1 {
@@ -196,12 +212,27 @@ button {
 }
 .content1 {
   grid-area: content1;
+  font-family: "Blinker";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .content2 {
   grid-area: content2;
+  font-family: "Blinker";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .content3 {
   grid-area: content3;
+  font-family: "Blinker";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .heading {
@@ -215,13 +246,114 @@ button {
 }
 
 .flexContainer {
-  display: flex;
-  padding: 60px 30px;
+  border: 8px solid black;
+  padding: 0px 0px 50px 0px;
+  padding-top: 20;
+  width: 100%;
+  /* display: flex;
+  padding: 60px 30px; */
+}
+.mySkills {
+  display: grid;
+  width: 1440px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50px 250px;
+  grid-template-areas:
+    "heading4 heading5 heading6"
+    "skills1 skills2 skills3";
+  padding-bottom: 50px;
+}
+
+.heading4 {
+  margin: 0 auto;
+  grid-area: heading4;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
+}
+
+.heading5 {
+  margin: 0 auto;
+  grid-area: heading5;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
+}
+
+.heading6 {
+  margin: 0 auto;
+  grid-area: heading6;
+  text-align: center;
+  font-family: "Blinker";
+  font-size: 36px;
+}
+
+.skills1 {
+  grid-area: skills1;
+  font-family: "Blinker";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.skills2 {
+  grid-area: skills2;
+  font-family: "Blinker";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.skills3 {
+  grid-area: skills3;
+  font-family: "Blinker";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.heading4,
+.heading5,
+.heading6,
+.skills1,
+.skills2,
+.skills3 {
+  display: inline-block;
+}
+
+.myTools {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50px;
+  grid-template-areas: "tools1 tools2 tools3";
+  padding-bottom: 50px;
+}
+
+.tools1 {
+  grid-area: tools1;
+}
+
+.tools2 {
+  grid-area: tools2;
+}
+
+.tools3 {
+  grid-area: tools3;
+}
+
+.tools1,
+.tools2,
+.tools3 {
+  display: inline-block;
 }
 
 .flexContainer div {
-  width: 33%;
-  padding: 25px;
+  /* width: 33%;
+  padding: 25px; */
 }
 
 footer {
