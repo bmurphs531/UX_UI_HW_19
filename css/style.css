@@ -62,7 +62,7 @@ header p {
   height: 605px;
   flex-shrink: 0;
   border: 8px solid black;
-  background: url(<../images/A4E24184-7715-4D7D-80E8-D4A1C85E0F7D_1_105_c\ 1.png>)
+  background: url(../images/A4E24184-7715-4D7D-80E8-D4A1C85E0F7D_1_105_c\ 1.png)
     lightgray 50% / cover no-repeat;
 }
 
@@ -321,7 +321,7 @@ button {
 .skills1,
 .skills2,
 .skills3 {
-  display: inline-block;
+  display: block;
 }
 
 .myTools {
@@ -348,7 +348,7 @@ button {
 .tools1,
 .tools2,
 .tools3 {
-  display: inline-block;
+  display: block;
 }
 
 .flexContainer div {
