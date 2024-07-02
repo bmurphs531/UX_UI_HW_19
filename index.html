@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <img id="logo" src="../UX_UI_HW_17/images/main logo.png" />
+      <img id="logo" src="./images/main logo.png" />
       <ul>
         <li>about</li>
         <li>skills</li>
@@ -21,30 +21,32 @@
       </ul>
     </header>
     <section class="heroImg">
-      <div class="content">
-        <div id="leftWrapper">
-          <div class="greenBox"></div>
+      <!-- <div class="content"> -->
+      <div id="leftWrapper">
+        <div class="greenBox"></div>
 
-          <div id="leftBottom">
-            <img
-              id="me"
-              src="../UX_UI_HW_17/images/A4E24184-7715-4D7D-80E8-D4A1C85E0F7D_1_105_c 1.png"
-            />
-          </div>
-        </div>
-        <div id="rightAside">
-          <h1>
-            hi, I’m Bridget, a User Experience and Visual Interface Designer!
-          </h1>
-          <p>
-            I’m an empathetic and creative problem solver. I want to help the
-            world work better, based on what people what and need.
-          </p>
-          <button class="button">read more about me here</button>
+        <div id="leftBottom">
+          <img
+            id="me"
+            src="./images/A4E24184-7715-4D7D-80E8-D4A1C85E0F7D_1_105_c 1.png"
+          />
         </div>
       </div>
-      <div class="purpleBox"></div>
+      <div id="rightAside">
+        <h1>
+          hi, I’m Bridget, a User Experience and Visual Interface Designer!
+        </h1>
+        <p>
+          I’m an empathetic and creative problem solver. I want to help the
+          world work better, based on what people want and need.
+        </p>
+        <button>read more about me here</button>
+      </div>
     </section>
+
+    <!-- moved to below the section so it wasn't in the flex box -->
+    <div class="purpleBox"></div>
+
     <section class="myWork">
       <h1 class="workHeading">my work</h1>
       <div class="workGrid">
@@ -70,7 +72,7 @@
             everyday problem. Our team created a mobile application to help
             users find and leave reviews on public restrooms near them.
           </p>
-          <button class="button">read more about my work</button>
+          <button class="workButton">read more about my work</button>
         </div>
         <h4 class="heading3">Humboldt Hot Air</h4>
 
@@ -87,64 +89,56 @@
       </div>
     </section>
 
-    <section class="flexContainer">
-      <h1 class="heading">my UX skills</h1>
-
+    <section class="flexContainer mySkills">
+      <h1 class="heading1">my UX skills</h1>
       <div class="myDoodle">
         <img src="./images/portfolio website doodle.png" />
       </div>
-      <div class="mySkillsTools">
-        <div>
-          <h3 class="heading4">User Research</h3>
-          <ul class="skills1">
-            <li>User Interviews</li>
-            <li>Data Synthesis/Analysis</li>
-            <li>Task Analysis</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="heading5">User Interface Design</h3>
-          <ul class="skills2">
-            <li>Interaction Design</li>
-            <li>Branding/Styling</li>
-            <li>Information Architecture</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="heading6">Communication</h3>
-          <ul class="skills3">
-            <li>Empathy</li>
-            <li>Collaboration</li>
-            <li>UX Writing</li>
-          </ul>
-        </div>
-
-        <div>
-          <h1 class="heading">tools</h1>
-        </div>
-        <div class="myTools">
-          <div class="tools1">
-            <ul>
-              <li>Figma</li>
-              <li>Pencil and Paper</li>
-              <li>Trello</li>
-            </ul>
-          </div>
-          <div class="tools2">
-            <ul>
-              <li>Jira</li>
-              <li>Google Suite</li>
-              <li>Microsoft Office</li>
-            </ul>
-          </div>
-          <div class="tools3">
-            <ul>
-              <li>Salesforce</li>
-              <li>Procreate</li>
-              <li>Canva</li>
-            </ul>
-          </div>
-        </div>
+      <div class="skills1">
+        <h3>User Research</h3>
+        <ul>
+          <li>User Interviews</li>
+          <li>Data Synthesis/Analysis</li>
+          <li>Task Analysis</li>
+        </ul>
+      </div>
+      <div class="skills2">
+        <h3>User Interface Design</h3>
+        <ul>
+          <li>Interaction Design</li>
+          <li>Branding/Styling</li>
+          <li>Information Architecture</li>
+        </ul>
+      </div>
+      <div class="skills3">
+        <h3>Communication</h3>
+        <ul>
+          <li>Empathy</li>
+          <li>Collaboration</li>
+          <li>UX Writing</li>
+        </ul>
+      </div>
+      <h1 class="heading2">tools</h1>
+      <div class="tools1">
+        <ul>
+          <li>Figma</li>
+          <li>Pencil and Paper</li>
+          <li>Trello</li>
+        </ul>
+      </div>
+      <div class="tools2">
+        <ul>
+          <li>Jira</li>
+          <li>Google Suite</li>
+          <li>Microsoft Office</li>
+        </ul>
+      </div>
+      <div class="tools3">
+        <ul>
+          <li>Salesforce</li>
+          <li>Procreate</li>
+          <li>Canva</li>
+        </ul>
       </div>
     </section>
     <footer>
@@ -165,5 +159,4 @@
       </div>
     </footer>
   </body>
-  <script src="js/style.js"></script>
 </html>
